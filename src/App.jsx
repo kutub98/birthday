@@ -97,8 +97,10 @@ function App() {
               className="max-w-xs lg:max-w-none h-auto lg:h-[400px] w-full lg:w-[600px] rounded-full border-4 border-white shadow-md"
               alt="Anika"
             />
-            <div className="bg-slate-100 p-4 rounded shadow-2xl flex flex-col items-center text-center max-w-sm lg:max-w-none">
-              <h1 className="text-xl lg:text-3xl text-gray-600">
+            <div className="bg-slate-100 p-4 rounded shadow-2xl flex flex-col items-center text-center max-w-sm lg:max-w-3xl">
+              <h1 className="text-xl text-gray-600">
+                Wishing you a very fantastic birthday , May this year bring you
+                new adeventures, great accompolishments and endless happiness.
                 May Allah bless you with happiness, peace, and prosperity
                 throughout your life.
               </h1>
