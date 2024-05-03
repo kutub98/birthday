@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import anika from './assets/anika.jpg';
+import background from './assets/background.jpg';
+import front from './assets/Front.webp';
 // import Lottie from 'react-lottie';
 // import animation from '../animate.json';
 function App() {
@@ -23,15 +26,11 @@ function App() {
       <div className=" ">
         {open ? (
           <div className="relative h-full">
-            <img
-              src="../src/assets/background.jpg"
-              className="w-full h-full"
-              alt=""
-            />
+            <img src={background} className="w-full h-full" alt="" />
             <div className="lg:flex block justify-between absolute  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-items-center w-full max-w-4xl">
               <div className="w-[400px] ">
                 <img
-                  src="../src/assets/anika.jpg"
+                  src={anika}
                   className="h-[400px] w-[600px] p-2 rounded-full border-4 shadow-md border-white"
                   alt=""
                 />
@@ -68,7 +67,7 @@ function App() {
         ) : (
           <div className="m-auto w-[500px] h-[600px] relative shadow-md p-6 rounded-md">
             <img
-              src="../src/assets/Front.webp"
+              src={front}
               className="m-auto h-full w-full rounded-md"
               alt=""
             />
